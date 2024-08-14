@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto 12px;
+}
+
+h1 {
+    color: rgb(53, 53, 255);
+    font-size: 3.4rem;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+p {
+    color: rgb(24, 24, 24);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 5px;
+    padding-bottom: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    flex-direction: row;
+}
+
+.outer_box {
+    border: none;
+    border-radius: 10px;
+    padding: 50px 20px;
+    box-shadow: 5px 1px 20px 2px black;
+}
+
+.password {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    padding: 15px 10px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.no-add:hover {
+    border-color: rgb(53, 53, 255);
+}
+
+.password:hover {
+    border-color: rgb(53, 53, 255);
+}
+
+.last-line {
+    padding-top: 30px;
+}
+
+.login {
+    background-color: rgb(53, 53, 255);
+    color: white;
+    font-weight: bolder;
+    padding: 20px 170px;
+}
+
+.new {
+    background-color: rgb(16, 171, 16);
+    color: white;
+    font-weight: bolder;
+    padding: 20px 30px;
+}
